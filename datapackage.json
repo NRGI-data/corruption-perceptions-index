@@ -1,135 +1,238 @@
 {
   "name": "corruption-perceptions-index",
-  "title": "Corruption Perceptions Index (CPI)",
-  "version": "1.0",
-  "description": "Corruption Perceptions Index (CPI), as reported by Transparency International.",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/datasets/corruption-perceptions-index.git"
-  },
-  "sources": [{
-    "name": "Transparency International",
-    "web": "http://www.transparency.org/research/cpi/overview"
-  }],
-  "keywords": [
-    "corruption",
-    "index",
-    "transparency"
-  ],
-  "licenses": {
-    "id": "ODC-PDDL-1.0",
-    "name": "Public Domain Dedication and License",
-    "version": "1.0",
-    "url": "http://www.opendefinition.org/licenses/odc-pddl"
-  },
   "resources": [
     {
-      "name": "cpi",
       "path": "data/cpi.csv",
-      "format": "csv",
-      "mediatype": "text/csv",
-      "bytes": 14369,
       "schema": {
         "fields": [
           {
-            "name": "Jurisdiction",
+            "index": 0,
             "type": "string",
-            "description": ""
+            "name": "Jurisdiction"
           },
           {
+            "count": 85.0,
+            "index": 1,
             "name": "1998",
+            "min": 1.4,
+            "max": 10.0,
+            "50%": 4.2,
+            "25%": 3.0,
+            "std": 2.4027656800373367,
+            "75%": 6.5,
             "type": "number",
-            "description": ""
+            "mean": 4.887058823529411
           },
           {
+            "count": 99.0,
+            "index": 2,
             "name": "1999",
+            "min": 1.5,
+            "max": 10.0,
+            "50%": 3.8,
+            "25%": 2.6500000000000004,
+            "std": 2.3607729273857276,
+            "75%": 6.0,
             "type": "number",
-            "description": ""
+            "mean": 4.604040404040406
           },
           {
+            "count": 90.0,
+            "index": 3,
             "name": "2000",
+            "min": 1.2,
+            "max": 10.0,
+            "50%": 4.1,
+            "25%": 2.925,
+            "std": 2.4017734292587116,
+            "75%": 6.4,
             "type": "number",
-            "description": ""
+            "mean": 4.758888888888887
           },
           {
+            "count": 92.0,
+            "index": 4,
             "name": "2001",
+            "min": 0.4,
+            "max": 9.9,
+            "50%": 3.95,
+            "25%": 2.875,
+            "std": 2.3853630749892605,
+            "75%": 6.625,
             "type": "number",
-            "description": ""
+            "mean": 4.743478260869565
           },
           {
+            "count": 103.0,
+            "index": 5,
             "name": "2002",
+            "min": 1.2,
+            "max": 9.7,
+            "50%": 3.7,
+            "25%": 2.6500000000000004,
+            "std": 2.36348217098989,
+            "75%": 6.15,
             "type": "number",
-            "description": ""
+            "mean": 4.547572815533981
           },
           {
+            "count": 133.0,
+            "index": 6,
             "name": "2003",
+            "min": 1.3,
+            "max": 9.7,
+            "50%": 3.4,
+            "25%": 2.4,
+            "std": 2.2837332281331713,
+            "75%": 5.5,
             "type": "number",
-            "description": ""
+            "mean": 4.223308270676693
           },
           {
+            "count": 146.0,
+            "index": 7,
             "name": "2004",
+            "min": 1.5,
+            "max": 9.7,
+            "50%": 3.3499999999999996,
+            "25%": 2.5,
+            "std": 2.2260799049074085,
+            "75%": 5.275,
             "type": "number",
-            "description": ""
+            "mean": 4.163698630136988
           },
           {
+            "count": 159.0,
+            "index": 8,
             "name": "2005",
+            "min": 1.7,
+            "max": 9.7,
+            "50%": 3.2,
+            "25%": 2.5,
+            "std": 2.1784807096626793,
+            "75%": 5.0,
             "type": "number",
-            "description": ""
+            "mean": 4.07798742138365
           },
           {
+            "count": 163.0,
+            "index": 9,
             "name": "2006",
+            "min": 1.8,
+            "max": 9.6,
+            "50%": 3.2,
+            "25%": 2.5,
+            "std": 2.1524146295284625,
+            "75%": 5.15,
             "type": "number",
-            "description": ""
+            "mean": 4.091411042944788
           },
           {
+            "count": 180.0,
+            "index": 10,
             "name": "2007",
+            "min": 1.4,
+            "max": 9.4,
+            "50%": 3.3,
+            "25%": 2.5,
+            "std": 2.0898424200838948,
+            "75%": 5.025,
             "type": "number",
-            "description": ""
+            "mean": 3.9933333333333354
           },
           {
+            "count": 180.0,
+            "index": 11,
             "name": "2008",
+            "min": 1.0,
+            "max": 9.3,
+            "50%": 3.4,
+            "25%": 2.5,
+            "std": 2.1064029960162656,
+            "75%": 5.2,
             "type": "number",
-            "description": ""
+            "mean": 4.022222222222224
           },
           {
+            "count": 180.0,
+            "index": 12,
             "name": "2009",
+            "min": 1.1,
+            "max": 9.4,
+            "50%": 3.3,
+            "25%": 2.5,
+            "std": 2.0968528929384704,
+            "75%": 5.125,
             "type": "number",
-            "description": ""
+            "mean": 4.031111111111114
           },
           {
+            "count": 178.0,
+            "index": 13,
             "name": "2010",
+            "min": 1.1,
+            "max": 9.3,
+            "50%": 3.3,
+            "25%": 2.425,
+            "std": 2.0858536015872473,
+            "75%": 5.074999999999999,
             "type": "number",
-            "description": ""
+            "mean": 4.007865168539326
           },
           {
+            "count": 183.0,
+            "index": 14,
             "name": "2011",
+            "min": 0.98,
+            "max": 9.46,
+            "50%": 3.2,
+            "25%": 2.4850000000000003,
+            "std": 2.0984448994950733,
+            "75%": 5.11,
             "type": "number",
-            "description": ""
+            "mean": 4.029344262295082
           },
           {
+            "count": 176.0,
+            "index": 15,
             "name": "2012",
-            "type": "integer",
-            "description": ""
+            "min": 8.0,
+            "max": 90.0,
+            "50%": 37.0,
+            "25%": 28.75,
+            "std": 19.6742687449712,
+            "75%": 56.25,
+            "type": "number",
+            "mean": 43.26704545454545
           },
           {
+            "count": 177.0,
+            "index": 16,
             "name": "2013",
-            "type": "integer",
-            "description": ""
+            "min": 8.0,
+            "max": 91.0,
+            "50%": 38.0,
+            "25%": 28.0,
+            "std": 19.922859386714144,
+            "75%": 56.0,
+            "type": "number",
+            "mean": 42.655367231638415
           },
           {
+            "count": 175.0,
+            "index": 17,
             "name": "2014",
-            "type": "integer",
-            "description": ""
+            "min": 8.0,
+            "max": 92.0,
+            "50%": 38.0,
+            "25%": 29.0,
+            "std": 19.770635537499807,
+            "75%": 55.0,
+            "type": "number",
+            "mean": 43.18857142857143
           }
         ]
       }
     }
-  ],
-  "bugs": "https://github.com/datasets/corruption-perceptions-index/issues",
-  "homepage": "https://github.com/datasets/corruption-perceptions-index",
-  "contributors":[{
-    "name": "Yann-Aël Le Borgne",
-    "email": "yleborgn@ulb.ac.be",
-    "web": "http://ulb.ac.be/di/map/yleborgn"
-  }]
+  ]
 }
